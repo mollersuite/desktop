@@ -15,5 +15,8 @@
   programs.sway.extraOptions = [
     "--unsupported-gpu"
   ];
+  hardware.pulseaudio.enable = false;
+  hardware.pipewire.enable = true;
+  services.pipewire.pulse.enable = true;
 
 }
