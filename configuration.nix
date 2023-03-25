@@ -10,4 +10,10 @@
   # systemd initrd (Faster boot!)
   # boot.initrd.systemd.enable = true;
   isoImage.squashfsCompression = "gzip -Xcompression-level 1"; # Fuck this man
+  programs.sway.enable = true;
+  programs.sway.wrapperFeatures.gtk = true;
+  programs.sway.extraOptions = [
+    "--unsupported-gpu"
+  ];
+
 }
