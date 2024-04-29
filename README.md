@@ -1,8 +1,11 @@
 <h1>
- <img src="https://cetera.uk/icon.svg" height="24" />
- Method OS
+ <code>github:mollersuite/desktop</code>
 </h1>
 
-Method OS &amp; Desktop
+This monorepo contains all Etcetera software for Linux. Our build system is Nix.
 
-Use `nix run .#vm` to build and run a VM. You can also build the ISO image with `nix build .#iso` and check out `./result/iso/nixos-method-x86_64-linux.iso`.
+- [Etcetera Desktop](./desktop/), our DE built on top of Niri
+- [Etcetera Terminal](./terminal/), a Nushell REPL
+- [Tangent](./tangent/), Etcetera's web browser
+- [Etcetedit](./etcedit/), a video editor
+<a href="https://cetera.uk"><img src="https://cetera.uk/favicon.svg" height="24" align="right" alt="Etcetera"></a>
